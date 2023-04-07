@@ -1,4 +1,4 @@
-AFRAME.registerComponent("position-tracking", {
+AFRAME.registerComponent("square-teleport", {
   // A new instance of the component gets created for each <a-entity> the component is attached to
   // The given instance of the component can be accessed using the `this` variable
   // - this.name refers to the string representation of the component name
