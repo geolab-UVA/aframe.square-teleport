@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@fb96ab2/dist/aframe-extras.min.js"></script>
-    <script src="js/position-tracking.js"></script>
-    <title>Cube Faces Tracking</title>
+    <script src="js/square-teleport.js"></script>
+        <title>Cube Faces Tracking</title>
   </head>
 
   <body>
     <a-scene>
       <a-sky id="sky" color="#1A0A2A"></a-sky>
 
-      <a-entity id="rig" movement-controls position="0 0 0" position-tracking>
+      <a-entity id="rig" movement-controls position="0 0 0" square-teleport>
         <a-entity
           id="camera"
           camera="fov:55"
